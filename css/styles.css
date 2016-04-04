@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.intro_section {
+  background: red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 850px;
+  width: 100%; }
+
+.logo {
+  background: url(../img/logo.png) no-repeat;
+  min-height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 15px;
+  left: 5%; }
+
+header nav {
+  background: red;
+  text-align: right;
+  width: 95%;
+  margin: 0;
+  padding: 25px 0; }
+
+header a {
+  font-size: 1.5em;
+  padding-left: 5%; }
