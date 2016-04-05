@@ -3,7 +3,13 @@ body {
   padding: 0;
 }
 
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
 
+/*** INTRO ***/
 .intro_section {
   background: url(../img/section1.png);
   // background: red;
@@ -22,28 +28,63 @@ body {
   left: 5%;
 }
 
+@media (max-device-width: 480px) {
+  .intro_section {
+    background-position: 17% 0%;
+  }
+}
+
+
+/*** HEADER & NAVIGATION ***/
+
+
 header {
 
+
   nav {
-    background: red;
+    background: transparent;
     text-align: right;
     width: 95%;
     margin: 0;
     padding: 25px 0;
   }
 
+
+
   a {
     font-size: 1em;
-    padding-left: 5%;
+    margin-left: 5%;
     text-decoration: none;
     color: white;
   }
+
+  a:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: .5px;
+  }
 }
 
+@media (max-device-width:480px) {
+  header {
+    nav {
+      display: inline-block;
+      flex-direction: column;
+      line-height: 2;
+      padding-left: 70%;
+    }
+  }
+}
+
+
+
+/*** SECTION1 SIDBAR ***/
+
+
 .heroic {
-  background: blue;
+  background: transparent;
   min-height: 850px;
   width: 48%;
+  color: white;
 
   h2 {
     font-size: 3em;
@@ -71,6 +112,20 @@ header {
   margin-left: 25%;
 }
 
+@media (max-device-width:480px) {
+  .heroic {
+    width: 100%;
+    min-height: 640px;
+
+    h2 {
+      padding-top: 0;
+    }
+  }
+}
+
+
+/*** SECTION1 DEVICES ***/
+
 
 .devices {
   .ipad {
@@ -82,5 +137,29 @@ header {
     position: absolute;
     top: 452px;
     left: 78%;
+  }
+}
+
+@media (max-device-width:768px) {
+  .devices {
+    .ipad {
+      position: absolute;
+      top: 175px;
+      left: 45%;
+    }
+
+    .iphone {
+      position: absolute;
+      top: 377px;
+      left: 70%;
+    }
+  }
+}
+
+@media (max-device-width:480px) {
+  .devices {
+    position: absolute;
+    top: 1167px;
+    left: 45%;
   }
 }
