@@ -38,7 +38,7 @@ body {
     }
   }
 
-/*** HEADER & NAVIGATION ***/
+/*** NAVIGATION ***/
 
 
 header {
@@ -74,7 +74,7 @@ header {
     }
   }
 
-/*** SECTION1 SIDBAR ***/
+/*** HEROIC SIDEBAR ***/
 
 
 .heroic {
@@ -125,14 +125,14 @@ header {
     }
   }
 
-/*** SECTION1 DEVICES ***/
+/*** DEVICES ***/
 
 
 .devices {
   display: block;
   float: right;
   margin-top: -750px;
-  margin-right: 10%;
+  margin-right: 0%;
 }
 
 .iphone {
@@ -164,7 +164,7 @@ header {
 
 @media (max-device-width: 480px) {
   .devices {
-    margin-top: -530px;
+    margin-top: -600px;
     margin-right: -5%;
 
     .ipad {
@@ -181,5 +181,33 @@ header {
         height: auto;
       }
     }
+  }
+}
+
+/********************* SECOND SECTION ***************************/
+
+
+
+.wwd {
+  min-height: 300px;
+  width: 100%;
+
+  h2 {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -15px;
+  }
+
+  .icons {
+    background: url(../img/icons.png) no-repeat;
+    min-height: 150px;
+    margin-left: 30%;
+    margin-top: 50px;
   }
 }
