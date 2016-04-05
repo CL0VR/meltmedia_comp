@@ -2,11 +2,6 @@ body {
   margin: 0;
   padding: 0; }
 
-* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
 /*** INTRO ***/
 .intro_section {
   background: url(../img/section1.png);
@@ -70,45 +65,34 @@ header a:hover {
     padding-right: 10%;
     line-height: 1.7; }
 
-.button {
+.button p {
   border: 1px solid white;
   border-radius: 2px;
-  display: block;
-  width: 160px;
-  height: 50px;
-  text-align: justify;
+  display: inline-block;
+  padding: 10px 5%;
   margin-left: 25%; }
 
 @media (max-device-width: 480px) {
   .heroic {
     width: 100%;
-    min-height: 640px; }
+    min-height: 1200px; }
     .heroic h2 {
       padding-top: 0; } }
 
 /*** SECTION1 DEVICES ***/
-.devices .ipad {
-  position: absolute;
-  top: 180px;
-  left: 58%; }
+.devices {
+  display: block;
+  float: right;
+  margin-top: -750px;
+  margin-right: 10%; }
 
-.devices .iphone {
-  position: absolute;
-  top: 452px;
-  left: 78%; }
+.iphone {
+  margin-left: -150px; }
 
 @media (max-device-width: 768px) {
-  .devices .ipad {
-    position: absolute;
-    top: 175px;
-    left: 45%; }
-  .devices .iphone {
-    position: absolute;
-    top: 377px;
-    left: 70%; } }
-
-@media (max-device-width: 480px) {
   .devices {
-    position: absolute;
-    top: 1167px;
-    left: 45%; } }
+    margin-top: -640px;
+    margin-right: -5%; }
+    .devices .ipad img {
+      width: 75%;
+      height: auto; } }
