@@ -10,6 +10,8 @@ body {
 }
 
 
+
+
 /*** INTRO ***/
 
 
@@ -103,6 +105,13 @@ header {
   display: inline-block;
   padding: 10px 5%;
   margin-left: 25%;
+  color: white;
+}
+
+.button p:hover {
+  background: white;
+  opacity: .7;
+  color: #85B9E5;
 }
 
 @media (max-device-width: 480px) {
@@ -127,7 +136,7 @@ header {
 }
 
 .iphone {
-  margin-left: -150px;
+  margin-left: -28%;
 }
 
 @media (max-device-width: 768px) {
@@ -141,7 +150,36 @@ header {
      height: auto;
       }
     }
+
+    .iphone {
+      margin-left: -40%;
+      img {
+        width: 35%;
+        height: auto;
+      }
+    }
   }
+}
 
 
+@media (max-device-width: 480px) {
+  .devices {
+    margin-top: -530px;
+    margin-right: -5%;
+
+    .ipad {
+      margin-left: 5%;
+      img {
+     width: 85%;
+     height: auto;
+      }
+    }
+
+    .iphone {
+      img {
+        width: 40%;
+        height: auto;
+      }
+    }
   }
+}
