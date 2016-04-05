@@ -142,11 +142,11 @@ header {
 @media (max-device-width: 768px) {
   .devices {
     margin-top: -640px;
-    margin-right: -5%;
+    margin-right: -25%;
 
     .ipad {
       img {
-     width: 75%;
+     width: 63%;
      height: auto;
       }
     }
@@ -164,8 +164,8 @@ header {
 
 @media (max-device-width: 480px) {
   .devices {
-    margin-top: -600px;
-    margin-right: -5%;
+    margin-top: -530px;
+    margin-right: 0%;
 
     .ipad {
       margin-left: 5%;
@@ -202,12 +202,33 @@ header {
     text-align: center;
     font-size: 1.5em;
     margin-top: -15px;
+    padding: 0 2.5% 5px;
   }
 
   .icons {
-    background: url(../img/icons.png) no-repeat;
     min-height: 150px;
     margin-left: 30%;
-    margin-top: 50px;
+    margin-top: 75px;
+  }
+}
+
+@media (max-device-width: 768px) {
+  .wwd {
+    .icons {
+      margin-left: 12%;
+    }
+  }
+}
+
+@media (max-device-width: 480px) {
+  .wwd {
+    .icons {
+      margin-left: 5%;
+      padding-bottom: 45px;
+      img {
+        width: 90%;
+        height: auto;
+      }
+    }
   }
 }
