@@ -100,7 +100,7 @@ header a:hover {
   display: block;
   float: right;
   margin-top: -750px;
-  margin-right: 0%; }
+  margin-right: 2%; }
 
 .iphone {
   margin-left: -28%; }
@@ -176,15 +176,16 @@ header a:hover {
     color: white;
     padding-top: 100px; }
   .supers .button {
-    margin-left: 17%;
     text-decoration: none; }
     .supers .button p {
       padding: 10px 2%;
       font-size: 1.5em;
-      margin: -25px auto;
+      text-align: center;
       display: block;
-      max-width: 20%;
-      text-align: center; }
+      margin-top: -25px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 250px; }
     .supers .button p:hover {
       color: #242424; }
 
@@ -207,7 +208,7 @@ header a:hover {
     height: 0; }
     .ny_trip .vid iframe {
       position: absolute;
-      top: 90px;
+      top: 50px;
       left: 10%;
       width: 80%;
       height: 80%; }
@@ -256,4 +257,69 @@ header a:hover {
       top: 0;
       left: 0;
       width: 100%;
-      height: 100%; }
+      height: 80%; }
+
+/********************* GET IN TOUCH ***************************/
+.logistics {
+  min-height: 200px;
+  width: 20%;
+  background: black;
+  color: white;
+  padding: 2%;
+  opacity: .7;
+  float: left;
+  margin-top: 200px;
+  margin-left: 12%;
+  z-index: 1;
+  position: relative; }
+  .logistics h2 {
+    font-size: 2em;
+    margin-top: -.5px; }
+  .logistics p {
+    margin-top: -15px; }
+  .logistics .links {
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px; }
+    .logistics .links a {
+      margin-left: 1%; }
+    .logistics .links .fb {
+      background: url(../img/fb1.png) no-repeat;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      height: 41px;
+      width: 22px;
+      display: inline-block; }
+    .logistics .links .fb:hover {
+      background: url(../img/fb.png) no-repeat; }
+    .logistics .links .tweet {
+      background: url(../img/tweet1.png) no-repeat;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 37px;
+      height: 41px;
+      display: inline-block; }
+    .logistics .links .tweet:hover {
+      background: url(../img/tweet.png) no-repeat; }
+    .logistics .links .li {
+      background: url(../img/li1.png) no-repeat;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 37px;
+      height: 41px;
+      display: inline-block; }
+    .logistics .links .li:hover {
+      background: url(../img/li.png) no-repeat; }
+    .logistics .links .insta {
+      background: url(../img/insta1.png) no-repeat;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 37px;
+      height: 41px;
+      display: inline-block; }
+    .logistics .links .insta:hover {
+      background: url(../img/insta.png) no-repeat; }
