@@ -217,8 +217,9 @@ header {
 
   .icons {
     min-height: 150px;
-    margin-left: 30%;
-    margin-top: 75px;
+    margin: 75px auto;
+    display: block;
+    max-width: 600px;
 
     img {
       padding-top: 25px;
@@ -266,11 +267,15 @@ background-size: cover;
 
   .button {
     margin-left: 17%;
+    text-decoration: none;
 
     p {
-      margin-top: -15px;
       padding: 10px 2%;
       font-size: 1.5em;
+      margin: -25px auto;
+      display: block;
+      max-width: 20%;
+      text-align: center;
     }
 
     p:hover {
@@ -367,7 +372,7 @@ background-size: cover;
 
 
 .map {
-  min-height: 450px;
+  min-height: 550px;
 
   .git {
     position: relative;

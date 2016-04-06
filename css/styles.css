@@ -146,8 +146,9 @@ header a:hover {
     padding: 0 2.5% 5px; }
   .wwd .icons {
     min-height: 150px;
-    margin-left: 30%;
-    margin-top: 75px; }
+    margin: 75px auto;
+    display: block;
+    max-width: 600px; }
     .wwd .icons img {
       padding-top: 25px; }
 
@@ -175,11 +176,15 @@ header a:hover {
     color: white;
     padding-top: 100px; }
   .supers .button {
-    margin-left: 17%; }
+    margin-left: 17%;
+    text-decoration: none; }
     .supers .button p {
-      margin-top: -15px;
       padding: 10px 2%;
-      font-size: 1.5em; }
+      font-size: 1.5em;
+      margin: -25px auto;
+      display: block;
+      max-width: 20%;
+      text-align: center; }
     .supers .button p:hover {
       color: #242424; }
 
@@ -240,7 +245,7 @@ header a:hover {
 
 /********************* MAP/CONTACT ***************************/
 .map {
-  min-height: 450px; }
+  min-height: 550px; }
   .map .git {
     position: relative;
     padding-bottom: 56.25%;
