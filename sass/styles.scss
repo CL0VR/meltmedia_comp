@@ -78,7 +78,7 @@ header {
       display: inline-block;
       flex-direction: column;
       line-height: 2;
-      padding-left: 68%;
+      padding-left: 72%;
       }
     }
   }
@@ -311,7 +311,7 @@ background-size: cover;
 
     iframe {
       position: absolute;
-      top: 100px;
+      top: 90px;
       left: 10%;
       width: 80%;
       height: 80%;
@@ -332,7 +332,7 @@ background-size: cover;
 
       iframe {
         position: absolute;
-        top: 70px;
+        top: 65px;
         left: 5%;
         width: 90%;
         height: 90%;
@@ -358,6 +358,29 @@ background-size: cover;
         width: 100%;
         height: 100%;
       }
+    }
+  }
+}
+
+
+/********************* MAP/CONTACT ***************************/
+
+
+.map {
+  min-height: 450px;
+
+  .git {
+    position: relative;
+  	padding-bottom: 56.25%;
+  	padding-top: 25px;
+  	height: 0;
+
+    iframe {
+      position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 100%;
     }
   }
 }
