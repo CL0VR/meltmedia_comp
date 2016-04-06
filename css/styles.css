@@ -36,7 +36,7 @@ header nav {
   padding: 25px 0; }
 
 header a {
-  font-size: 1em;
+  font-size: 1.25em;
   margin-left: 5%;
   text-decoration: none;
   color: white; }
@@ -45,12 +45,16 @@ header a:hover {
   border-bottom: 2px solid black;
   padding-bottom: .5px; }
 
+@media (max-device-width: 768px) {
+  header nav {
+    font-size: .75em; } }
+
 @media (max-device-width: 480px) {
   header nav {
     display: inline-block;
     flex-direction: column;
     line-height: 2;
-    padding-left: 70%; } }
+    padding-left: 68%; } }
 
 /*** HEROIC SIDEBAR ***/
 .heroic {
@@ -186,3 +190,50 @@ header a:hover {
 @media (max-device-width: 480px) {
   .supers .button {
     margin: 0; } }
+
+/********************* NY TRIP SECTION ***************************/
+.ny_trip {
+  min-height: 550px; }
+  .ny_trip .vid {
+    position: relative;
+    padding-bottom: 50%;
+    /* 16:9 */
+    padding-top: 10%;
+    height: 0; }
+    .ny_trip .vid iframe {
+      position: absolute;
+      top: 100px;
+      left: 10%;
+      width: 80%;
+      height: 80%; }
+
+@media (max-device-width: 768px) {
+  .ny_trip {
+    min-height: 550px; }
+    .ny_trip .vid {
+      position: relative;
+      padding-bottom: 50%;
+      /* 16:9 */
+      padding-top: 10%;
+      height: 0; }
+      .ny_trip .vid iframe {
+        position: absolute;
+        top: 70px;
+        left: 5%;
+        width: 90%;
+        height: 90%; } }
+
+@media (max-device-width: 480px) {
+  .ny_trip {
+    min-height: 380px; }
+    .ny_trip .vid {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 200px;
+      height: 0; }
+      .ny_trip .vid iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; } }
