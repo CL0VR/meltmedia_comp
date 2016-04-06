@@ -84,7 +84,7 @@ header {
   color: white;
 
   h2 {
-   font-size: 3em;
+   font-size: 3.5em;
    line-height: 1.2;
    padding-top: 150px;
    padding-left: 25%;
@@ -121,6 +121,7 @@ header {
 
     h2 {
      padding-top: 0;
+     font-size: 3em;
       }
     }
   }
@@ -184,7 +185,7 @@ header {
   }
 }
 
-/********************* SECOND SECTION ***************************/
+/********************* WWD SECTION ***************************/
 
 
 
@@ -209,6 +210,10 @@ header {
     min-height: 150px;
     margin-left: 30%;
     margin-top: 75px;
+
+    img {
+      padding-top: 25px;
+    }
   }
 }
 
@@ -229,6 +234,54 @@ header {
         width: 90%;
         height: auto;
       }
+    }
+  }
+}
+
+
+/********************* SUPERHERO SECTION ***************************/
+
+
+.supers {
+  min-height: 300px;
+  background: url(../img/superhero.png) no-repeat;
+  background-position: 60% 10%;
+background-size: cover;
+
+  h2 {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    padding-top: 100px;
+  }
+
+  .button {
+    margin-left: 17%;
+
+    p {
+      margin-top: -15px;
+      padding: 10px 2%;
+      font-size: 1.5em;
+    }
+
+    p:hover {
+      color: #242424;
+    }
+  }
+}
+
+@media (max-device-width: 768px) {
+  .supers {
+    .button {
+      margin-left: 10%;
+    }
+  }
+}
+
+@media (max-device-width: 480px) {
+  .supers {
+    .button {
+      margin: 0;
     }
   }
 }
