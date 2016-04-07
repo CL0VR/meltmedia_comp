@@ -105,28 +105,29 @@ header a:hover {
 .iphone {
   margin-left: -28%; }
 
-@media (min-device-width: 1024px) {
+@media (max-device-width: 1024px) {
   .devices {
     display: block;
     float: right;
     max-width: 200px;
     margin-top: -750px;
     margin-right: 32%; }
-  .iphone img {
-    margin-top: -380px;
-    margin-left: 125%; } }
+    .devices .iphone img {
+      margin-top: -380px;
+      margin-left: 125%; } }
 
 @media (max-device-width: 768px) {
   .devices {
-    margin-top: -640px;
-    margin-right: 5%; }
+    max-width: 275px;
+    margin-top: -595px;
+    margin-right: 18%; }
     .devices .ipad img {
-      width: 105%;
+      width: 145%;
       height: auto; }
     .devices .iphone {
-      margin-left: -40%; }
+      margin-left: -55%; }
       .devices .iphone img {
-        width: 35%;
+        width: 50%;
         height: auto; } }
 
 @media (max-device-width: 480px) {

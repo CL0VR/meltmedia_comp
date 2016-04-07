@@ -108,6 +108,7 @@ header {
  }
 }
 
+
 .button p {
   border: 1px solid white;
   border-radius: 2px;
@@ -149,44 +150,69 @@ header {
   margin-left: -28%;
 }
 
-@media (min-device-width: 1024px) {
+@media (max-device-width: 1024px) {
   .devices {
     display: block;
     float: right;
     max-width: 200px;
     margin-top: -750px;
     margin-right: 32%;
-  }
 
-  .iphone {
-    img {
-      margin-top: -380px;
-      margin-left: 125%;
+    .iphone {
+      img {
+        margin-top: -380px;
+        margin-left: 125%;
+      }
     }
   }
+
+
 }
 
 @media (max-device-width: 768px) {
   .devices {
-    // margin-top: -640px;
-    // margin-right: 5%;
+    max-width: 275px;
+    margin-top: -595px;
+    margin-right: 18%;
 
     .ipad {
       img {
-    //  width: 105%;
-    //  height: auto;
+        width: 145%;
+        height: auto;
       }
     }
 
     .iphone {
-      // margin-left: -40%;
+      margin-left: -55%;
       img {
-      //   width: 35%;
-      //   height: auto;
-      // }
+        width: 50%;
+        height: auto;
+      }
     }
   }
 }
+// @media (max-device-width: 768px) {
+//   .devices {
+//     margin-top: -640px;
+//     margin-right: -6%;
+//
+//     .ipad {
+//       img {
+//          width: 75%;
+//          height: auto;
+//       }
+//     }
+//
+//
+//     .iphone {
+//       // margin-left: -40%;
+//       img {
+//       //   width: 35%;
+//       //   height: auto;
+//       // }
+//     }
+//   }
+// }
 
 
 @media (max-device-width: 480px) {
@@ -273,7 +299,7 @@ header {
   min-height: 300px;
   background: url(../img/superhero.png) no-repeat;
   background-position: 60% 10%;
-background-size: cover;
+  background-size: cover;
 
   h2 {
     text-align: center;
@@ -683,11 +709,3 @@ background-size: cover;
     }
   }
 }
-
-// @media (max-device-width:768px) {
-//
-// }
-//
-// @media (max-device-width:480px) {
-//
-// }
