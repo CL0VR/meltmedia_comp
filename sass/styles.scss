@@ -143,12 +143,23 @@ header {
   display: block;
   float: right;
   margin-top: -750px;
-  margin-right: 2%;
+  margin-right: 10%;
+
+  .ipad {
+    img {
+      margin-left: 20%;
+    }
 }
 
-.iphone {
-  margin-left: -28%;
+  .iphone {
+    img {
+      margin-left: 52%;
+      margin-top: -320px;
+    }
+  }
 }
+
+
 
 @media (max-device-width: 1024px) {
   .devices {
@@ -728,6 +739,32 @@ header {
 
     button {
       margin-left: 20%;
+    }
+  }
+}
+
+
+/********************* FOOTER ***************************/
+
+footer {
+  margin-top: -25px;
+  margin-bottom: -50px;
+  background-color: #85B9E5;
+}
+
+footer p {
+  text-align: center;
+  padding: 4%;
+  color: white;
+  font-size: 1.5em;
+}
+
+@media (max-device-width:480px) {
+  footer {
+
+    margin-top: -5px;
+    p {
+      font-size: 1em;
     }
   }
 }
