@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Titillium+Web);
 body {
   margin: 0;
   padding: 0; }
@@ -37,6 +38,8 @@ header nav {
 
 header a {
   font-size: 1.25em;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
   margin-left: 5%;
   text-decoration: none;
   color: white; }
@@ -63,24 +66,31 @@ header a:hover {
   width: 48%;
   color: white; }
   .heroic h2 {
-    font-size: 3.5em;
+    font-size: 3em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
     line-height: 1.2;
     padding-top: 150px;
     padding-left: 25%;
     padding-right: 15%;
     margin-bottom: -15px; }
+    .heroic h2 span {
+      font-weight: 500; }
   .heroic p {
     padding-left: 25%;
     padding-right: 10%;
-    line-height: 1.7; }
+    line-height: 1.7;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.45em; }
 
 .button p {
   border: 1px solid white;
   border-radius: 2px;
   display: inline-block;
-  padding: 10px 5%;
+  padding: 10px 10%;
   margin-left: 25%;
-  color: white; }
+  color: white;
+  font-family: 'Titillium Web', sans-serif; }
 
 .button p:hover {
   background: white;
@@ -134,8 +144,8 @@ header a:hover {
 
 @media (max-device-width: 480px) {
   .devices {
-    margin-top: -530px;
-    margin-right: 18%; }
+    margin-top: -400px;
+    margin-right: 30%; }
     .devices .ipad {
       margin-left: 5%; }
       .devices .ipad img {
@@ -145,6 +155,12 @@ header a:hover {
       width: 40%;
       height: auto; } }
 
+@media (max-device-width: 360px) {
+  .devices {
+    margin-top: -257px;
+    margin-right: 33%;
+    margin-left: 7%; } }
+
 /********************* WWD SECTION ***************************/
 .wwd {
   min-height: 300px;
@@ -152,12 +168,20 @@ header a:hover {
   .wwd h2 {
     text-align: center;
     font-size: 3em;
-    padding-top: 20px; }
+    padding-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    color: #85B9E5; }
+    .wwd h2 span {
+      font-weight: 500; }
   .wwd p {
     text-align: center;
     font-size: 1.5em;
     margin-top: -15px;
-    padding: 0 2.5% 5px; }
+    padding: 0 2.5% 5px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 2em; }
   .wwd .icons {
     min-height: 150px;
     margin: 75px auto;
@@ -188,12 +212,17 @@ header a:hover {
     text-align: center;
     font-size: 3em;
     color: white;
-    padding-top: 100px; }
+    padding-top: 100px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200; }
+    .supers h2 span {
+      font-weight: 500; }
   .supers .button {
     text-decoration: none; }
     .supers .button p {
       padding: 10px 2%;
       font-size: 1.5em;
+      font-family: 'Titillium Web', sans-serif;
       text-align: center;
       display: block;
       margin-top: -25px;
@@ -306,9 +335,17 @@ header a:hover {
   position: relative; }
   .logistics h2 {
     font-size: 2em;
-    margin-top: -.5px; }
+    margin-top: -.5px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200; }
+    .logistics h2 span {
+      font-weight: 500; }
+  .logistics h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold; }
   .logistics p {
-    margin-top: -15px; }
+    margin-top: -15px;
+    font-family: 'Titillium Web', sans-serif; }
   .logistics .links {
     display: flex;
     justify-content: space-between;
@@ -359,7 +396,7 @@ header a:hover {
 @media (max-device-width: 1024px) {
   .logistics {
     width: 25%;
-    margin-top: 125px;
+    margin-top: 110px;
     margin-left: 1.25%;
     font-size: 1.5vw; } }
 
@@ -383,7 +420,7 @@ header a:hover {
     min-height: 805px; }
   .logistics {
     width: 100%;
-    margin-top: 475px;
+    margin-top: 430px;
     margin-left: 0;
     font-size: 4.75vw;
     background: url(../img/section1.png) no-repeat;
@@ -396,12 +433,18 @@ header a:hover {
   margin-top: -175px; }
   .contact h2 {
     text-align: center;
-    font-size: 5em; }
+    font-size: 5em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    color: #85B9E5; }
+    .contact h2 span {
+      font-weight: 500; }
   .contact p {
     text-align: center;
     font-size: 1.5em;
     margin-top: -55px;
-    padding: 0 5%; }
+    padding: 0 5%;
+    font-family: 'Titillium Web', sans-serif; }
   .contact .infobar {
     background: transparent;
     padding: 5px;
@@ -454,7 +497,9 @@ header a:hover {
     padding: 15px;
     border: 2px solid grey;
     color: grey;
-    background: transparent; }
+    background: transparent;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold; }
   .contact input:hover {
     border: 2px solid #85B9E5; }
   .contact textarea:hover {
@@ -502,7 +547,8 @@ footer p {
   text-align: center;
   padding: 4%;
   color: white;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  font-family: 'Titillium Web', sans-serif; }
 
 @media (max-device-width: 480px) {
   footer {
