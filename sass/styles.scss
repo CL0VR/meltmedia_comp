@@ -149,25 +149,41 @@ header {
   margin-left: -28%;
 }
 
+@media (min-device-width: 1024px) {
+  .devices {
+    display: block;
+    float: right;
+    max-width: 200px;
+    margin-top: -750px;
+    margin-right: 32%;
+  }
+
+  .iphone {
+    img {
+      margin-top: -380px;
+      margin-left: 125%;
+    }
+  }
+}
 
 @media (max-device-width: 768px) {
   .devices {
-    margin-top: -640px;
-    margin-right: -25%;
+    // margin-top: -640px;
+    // margin-right: 5%;
 
     .ipad {
       img {
-     width: 63%;
-     height: auto;
+    //  width: 105%;
+    //  height: auto;
       }
     }
 
     .iphone {
-      margin-left: -40%;
+      // margin-left: -40%;
       img {
-        width: 35%;
-        height: auto;
-      }
+      //   width: 35%;
+      //   height: auto;
+      // }
     }
   }
 }
@@ -537,7 +553,7 @@ background-size: cover;
 @media (max-device-width:480px) {
   .logistics {
     width: 45%;
-    margin-top: 310px;
+    margin-top: 265px;
     margin-left: 1.25%;
     font-size: 2.75vw;
   }
@@ -559,3 +575,119 @@ background-size: cover;
     background-size: 450%;
   }
 }
+
+
+/********************* CONTACT US ***************************/
+
+.contact {
+  min-height: 600px;
+  margin-top: -175px;
+  h2 {
+    text-align: center;
+    font-size: 5em;
+  }
+
+  p {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -55px;
+    padding: 0 5%;
+  }
+
+  .infobar {
+    background: transparent;
+    padding: 5px;
+    min-height: 600px;
+    margin-top: -45px;
+  }
+
+  form {
+    max-width: 75%;
+    min-height: 474px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 8px;
+  }
+
+  .row1 {
+    display: flex;
+    max-width: 99%;
+
+    input {
+      font-size: 16px;
+      height: 60px;
+      margin: 20px;
+      outline: 0;
+      padding: 15px;
+      width: 77%;
+      border: 2px solid grey;
+      color: grey;
+    }
+  }
+
+  .row2 {
+    input {
+      font-size: 16px;
+      height: 60px;
+      margin: 20px;
+      outline: 0;
+      padding: 15px;
+      width: 95%;
+      border: 2px solid grey;
+      color: grey;
+    }
+
+    textarea {
+      font-size: 16px;
+      height: 200px;
+      margin: 20px;
+      outline: 0;
+      padding: 15px;
+      width: 95%;
+      border: 2px solid grey;
+      color: grey;
+    }
+  }
+
+    button {
+      display: block;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 200px;
+      font-size: 1.5em;
+      padding: 15px;
+      border: 2px solid grey;
+      color: grey;
+      background: transparent;
+    }
+    input:hover {
+      border: 2px solid #85B9E5;
+    }
+
+    textarea:hover {
+      border: 2px solid #85B9E5;
+    }
+
+    button:hover {
+      border: 2px solid #85B9E5;
+      color: #85b9e5;
+    }
+}
+
+@media (max-device-width:1024px) {
+  .contact {
+    .row1 {
+      min-width: 101%;
+    }
+  }
+}
+
+// @media (max-device-width:768px) {
+//
+// }
+//
+// @media (max-device-width:480px) {
+//
+// }

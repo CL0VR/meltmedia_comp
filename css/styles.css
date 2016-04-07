@@ -105,12 +105,23 @@ header a:hover {
 .iphone {
   margin-left: -28%; }
 
+@media (min-device-width: 1024px) {
+  .devices {
+    display: block;
+    float: right;
+    max-width: 200px;
+    margin-top: -750px;
+    margin-right: 32%; }
+  .iphone img {
+    margin-top: -380px;
+    margin-left: 125%; } }
+
 @media (max-device-width: 768px) {
   .devices {
     margin-top: -640px;
-    margin-right: -25%; }
+    margin-right: 5%; }
     .devices .ipad img {
-      width: 63%;
+      width: 105%;
       height: auto; }
     .devices .iphone {
       margin-left: -40%; }
@@ -359,7 +370,7 @@ header a:hover {
 @media (max-device-width: 480px) {
   .logistics {
     width: 45%;
-    margin-top: 310px;
+    margin-top: 265px;
     margin-left: 1.25%;
     font-size: 2.75vw; } }
 
@@ -375,3 +386,80 @@ header a:hover {
     background: url(../img/section1.png) no-repeat;
     background-position: 30% 75%;
     background-size: 450%; } }
+
+/********************* CONTACT US ***************************/
+.contact {
+  min-height: 600px;
+  margin-top: -175px; }
+  .contact h2 {
+    text-align: center;
+    font-size: 5em; }
+  .contact p {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -55px;
+    padding: 0 5%; }
+  .contact .infobar {
+    background: transparent;
+    padding: 5px;
+    min-height: 600px;
+    margin-top: -45px; }
+  .contact form {
+    max-width: 75%;
+    min-height: 474px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 8px; }
+  .contact .row1 {
+    display: flex;
+    max-width: 99%; }
+    .contact .row1 input {
+      font-size: 16px;
+      height: 60px;
+      margin: 20px;
+      outline: 0;
+      padding: 15px;
+      width: 77%;
+      border: 2px solid grey;
+      color: grey; }
+  .contact .row2 input {
+    font-size: 16px;
+    height: 60px;
+    margin: 20px;
+    outline: 0;
+    padding: 15px;
+    width: 95%;
+    border: 2px solid grey;
+    color: grey; }
+  .contact .row2 textarea {
+    font-size: 16px;
+    height: 200px;
+    margin: 20px;
+    outline: 0;
+    padding: 15px;
+    width: 95%;
+    border: 2px solid grey;
+    color: grey; }
+  .contact button {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    font-size: 1.5em;
+    padding: 15px;
+    border: 2px solid grey;
+    color: grey;
+    background: transparent; }
+  .contact input:hover {
+    border: 2px solid #85B9E5; }
+  .contact textarea:hover {
+    border: 2px solid #85B9E5; }
+  .contact button:hover {
+    border: 2px solid #85B9E5;
+    color: #85b9e5; }
+
+@media (max-device-width: 1024px) {
+  .contact .row1 {
+    min-width: 101%; } }
