@@ -133,7 +133,7 @@ header a:hover {
 @media (max-device-width: 480px) {
   .devices {
     margin-top: -530px;
-    margin-right: 0%; }
+    margin-right: 18%; }
     .devices .ipad {
       margin-left: 5%; }
       .devices .ipad img {
@@ -464,3 +464,28 @@ header a:hover {
 @media (max-device-width: 1024px) {
   .contact .row1 {
     min-width: 101%; } }
+
+@media (max-device-width: 768px) {
+  .contact {
+    margin-top: -145px; } }
+
+@media (max-device-width: 480px) {
+  .contact {
+    margin-top: -85px; }
+    .contact .infobar {
+      margin-top: -25px; }
+      .contact .infobar form {
+        padding: 0;
+        max-width: 90%; }
+        .contact .infobar form .row1 {
+          display: block; }
+          .contact .infobar form .row1 input {
+            width: 94%; }
+    .contact button {
+      margin-top: 0; } }
+
+@media (max-device-width: 360px) {
+  .contact {
+    margin-left: -25px; }
+    .contact button {
+      margin-left: 20%; } }

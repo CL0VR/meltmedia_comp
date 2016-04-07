@@ -191,34 +191,13 @@ header {
     }
   }
 }
-// @media (max-device-width: 768px) {
-//   .devices {
-//     margin-top: -640px;
-//     margin-right: -6%;
-//
-//     .ipad {
-//       img {
-//          width: 75%;
-//          height: auto;
-//       }
-//     }
-//
-//
-//     .iphone {
-//       // margin-left: -40%;
-//       img {
-//       //   width: 35%;
-//       //   height: auto;
-//       // }
-//     }
-//   }
-// }
+
 
 
 @media (max-device-width: 480px) {
   .devices {
     margin-top: -530px;
-    margin-right: 0%;
+    margin-right: 18%;
 
     .ipad {
       margin-left: 5%;
@@ -706,6 +685,49 @@ header {
   .contact {
     .row1 {
       min-width: 101%;
+    }
+  }
+}
+
+@media (max-device-width:768px) {
+  .contact {
+    margin-top: -145px;
+  }
+}
+
+@media (max-device-width: 480px) {
+  .contact {
+    margin-top: -85px;
+
+    .infobar {
+      margin-top: -25px;
+
+      form {
+        padding: 0;
+        max-width: 90%;
+
+        .row1 {
+          display: block;
+          // min-width: 125%;
+          input {
+            width: 94%;
+          }
+        }
+      }
+    }
+
+    button {
+      margin-top: 0;
+    }
+  }
+}
+
+@media (max-device-width: 360px) {
+  .contact {
+    margin-left: -25px;
+
+    button {
+      margin-left: 20%;
     }
   }
 }
